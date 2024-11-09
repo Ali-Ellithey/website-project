@@ -1,0 +1,45 @@
+.btn {
+    --bs-btn-padding-x         : 3.5rem;
+    --bs-btn-padding-y         : 1.125rem;
+    --bs-btn-font-family       : ;
+    --bs-btn-font-size         : 1rem;
+    --bs-btn-font-weight       : 400;
+    --bs-btn-line-height       : 1.5;
+    --bs-btn-color             : var(--bs-body-color);
+    --bs-btn-bg                : transparent;
+    --bs-btn-border-width      : var(--bs-border-width);
+    --bs-btn-border-color      : transparent;
+    --bs-btn-border-radius     : 2.5rem;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-disabled-opacity  : 0.65;
+    --bs-btn-focus-box-shadow  : 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+}
+
+.btn-outline {
+    background-color     : transparent;
+    --bs-btn-border-color: var(--color-gray-main);
+
+}
+
+.btn-primary {
+    --bs-btn-color             : var(--color-main-dark);
+    --bs-btn-hover-color       : var(--color-main-dark);
+    --bs-btn-border-color      : var(--color-main-dark);
+    --bs-btn-bg                : var(--color-secondary-main);
+    --bs-btn-border-color      : var(--color-secondary-main);
+    --bs-btn-hover-bg          : var(--color-secondary-light);
+    --bs-btn-hover-border-color: var(--color-secondary-main);
+    
+}
+
+.btn-icon::after {
+    content    : url(../../assets/images/right-arrow.svg);
+    margin-left: 0.77rem;
+    color      : currentColor;
+}
+
+.btns-icon::after {
+    content    : url(../../assets/images/icons/Arrow\ 1.svg);
+    margin-left: 0.77rem;
+    color      : currentColor;
+}

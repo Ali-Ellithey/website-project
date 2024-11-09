@@ -1,0 +1,178 @@
+/* small devices (landscape phones */
+@media (min-width: 360px) {
+    h1 {
+        font-weight: var(--font-weight-semi-bold);
+        font-size  : 3rem;
+        line-height: 1.370;
+    }
+
+    h2 {
+        font-size  : 2.66rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 2.5;
+    }
+
+    h3 {
+        font-size  : 3.5rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    h4 {
+        font-size  : 1.25rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.55;
+    }
+
+    h5 {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    h6 {
+        font-size  : 0.875rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    p {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-size-large {
+        font-size  : 1.25rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-medium {
+        font-size  : 1.125rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-regular {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-small {
+        font-size  : 0.875rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-size-tiny {
+        font-size  : 0.75rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-style-quote {
+        font-size  : 1.5rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+
+}
+
+/* Meidum devices (Tablets phones */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops  */
+@media (min-width: 992px) {
+
+    /* themes */
+    h1 {
+        font-weight: var(--font-weight-semi-bold);
+        font-size  : 2.5rem;
+        line-height: 1.370;
+    }
+
+    h2 {
+        font-size  : 2.66rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 2.5;
+    }
+
+    h3 {
+        font-size  : 1.5rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    h4 {
+        font-size  : 1.25rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.55;
+    }
+
+    h5 {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    h6 {
+        font-size  : 0.875rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    p {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-size-large {
+        font-size  : 1.25rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-medium {
+        font-size  : 1.125rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-regular {
+        font-size  : 1rem;
+        font-weight: var(--font-weight-semi-bold);
+        line-height: 1.5;
+    }
+
+    .text-size-small {
+        font-size  : 0.875rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-size-tiny {
+        font-size  : 0.75rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+    .text-style-quote {
+        font-size  : 1.5rem;
+        font-weight: var(--font-weight-reg);
+        line-height: 1.5;
+    }
+
+
+}
+
+/*xlareg devices (xlarge */
+@media (min-width: 1200px) {}
+
+/*xlareg devices (xxlarge */
+@media (min-width: 1400px) {}

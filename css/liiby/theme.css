@@ -1,0 +1,138 @@
+:root {
+  /* typography */
+  --font-family: "poppins", sans-sarif;
+  --font-weight-reg: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-size-rge: 1rem;
+  /* color */
+  --color-main: #2405f2;
+  --color-main-dark: #1c1e53;
+  --color-main-darker: #282938;
+  --color-secondary-main: #fcd980;
+  --color-secondary-light: #fde4a6;
+  --color-secondary: #fcd980;
+
+  --color-gray: #f4f5f5;
+  --color-gray-main: #f4f6fc;
+  --color-gray-light: #eef4fa;
+  --bg-color-main-dark: #1c1e53;
+  --bg-color-gray: #f4f6fc;
+  --bg-colro-white: #ffffff;
+  /* bootstrap */
+  /* --bs-primary-rgb       : var(--color-main) !important; */
+  /* text color */
+  --text-color-black: #0000;
+  --text-color-blue: #2405f2;
+  --text-color-yellow: #fcd980;
+  --text-color-white: #ffffff;
+  --text-color-muthed: #bbbbcb;
+}
+.gray {
+  background-color: var(--color-gray);
+}
+.te {
+  color: var(--color-secondary-main);
+}
+.layers {
+  background-color: rgba(21, 38, 77, 0.489);
+}
+.bg-gradient {
+  background: var(--color-main-dark) !important;
+}
+.bg {
+  background-color: var(--color-main-dark);
+}
+
+.content {
+  background-color: var(--color-secondary-main);
+}
+/* general */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-rge);
+}
+
+h1 {
+  font-weight: var(--font-weight-semi-bold);
+  font-size: 3.375rem;
+  line-height: 1.37;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 2.23rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 2.25rem;
+  font-weight: var(--font-weight-reg);
+  line-height: 1.55;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-reg);
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: var(--font-weight-reg);
+  color: var(--color-main-darker);
+  line-height: 1.75;
+}
+
+.text-size-large {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.5;
+}
+
+.text-size-medium {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.5;
+}
+
+.text-size-regular {
+  font-size: 1rem;
+  font-weight: var(--font-weight-semi-reg);
+  line-height: 1.5;
+}
+
+.text-size-small {
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-reg);
+  line-height: 1.5;
+}
+
+.text-size-tiny {
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-reg);
+  line-height: 1.5;
+}
+
+.text-style-quote {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-reg);
+  line-height: 1.5;
+}
+
+.text-muted {
+  opacity: 0.7;
+  color: var(--color-gray-main) !important;
+}
