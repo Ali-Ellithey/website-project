@@ -1,3 +1,5 @@
+
+
 /* small devices (landscape phones */
 @media (min-width: 360px) {
     h1 {
@@ -13,9 +15,9 @@
     }
 
     h3 {
-        font-size  : 3.5rem;
+        font-size  : 1.56rem;
         font-weight: var(--font-weight-semi-bold);
-        line-height: 1.5;
+        line-height: 2;
     }
 
     h4 {
